@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+.logoweb img{
+	width:200px;
+}
+.menu ul li a .iconmenu{
+	font-size:35px;
+	color:#fff;
+	display:block;
+	margin-bottom:10px;
+}

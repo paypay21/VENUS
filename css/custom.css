@@ -1,0 +1,231 @@
+﻿.btn-primary{
+    background: #d7a307;
+    color: #fff;
+    border-color: #d7a307;
+    border-radius: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:active:hover{
+    background: #bd8f05;
+    border-color: #bd8f05;
+    color: #fff;
+    outline:0;
+}
+.logoweb img{
+	max-width:100%;
+	display:block;
+	margin:0 auto;
+}
+.top-head img{
+	width:100px;
+	margin-top: -22px;
+}
+.slideshow-container .caption{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    padding:30px;
+}
+.slideshow-container .caption h1{
+    color:#fff;
+}
+.slideshow-container .caption p{
+    color:#fff;
+}
+.shipping-item {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 25px;
+    padding: 20px;
+    border-bottom: 1px solid #d7d7d7;
+    position: relative;
+}
+span.cross-icon {
+    color: #434343;
+    font-size: 18px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.shipping-item-image {
+    float: left;
+    margin-right: 18px;
+}
+.shipping-item-image a {
+    display: block;
+}
+.shipping-item-image img {
+    border: none;
+    max-width: 100%;
+}
+.shipping-item-text span {
+    color: #9c9b9b;
+    font-size: 14px;
+}
+span.pro-quan-x {font-weight: bold;color: #bf4520;}
+.shipping-item-text span a.pro-cat {
+    color: #434343;
+    margin-left: 5px;
+}
+span.pro-quality {
+    display: block;
+}
+span.pro-quality a {
+    color: #9c9b9b;
+    font-size: 12px;
+}
+.shipping-item-text p {
+    margin: 0;
+    color: #434343;
+    font-size: 13px;
+}
+.shipping-total-bill {
+    padding: 20px;
+    color: #515151;
+    line-height: 35px;
+}
+.cart-prices {
+    border-bottom: 1px solid #515151;
+}
+.shipping-cost {
+    float: right;
+}
+.shipping-total {
+    float: right;
+}
+.box-services{
+    background: #edeff4;
+    padding: 20px;
+    text-align: center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    transition: all 0.5s ease-in-out;
+    margin-top: 100px;
+    border-bottom: 3px solid #cecbcb;
+}
+.box-services:before{
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 105%;
+    left: 5%;
+    height: 52px;
+    width: 95%;
+    opacity: 0.5;
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.16) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0) 80%);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+}
+.box-services:hover{
+    opacity: 1;
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+    background: #bf4520;
+}
+.box-services .image{
+    height: 200px;
+    margin: 0 auto;
+    margin-top: -35%;
+}
+.box-services .image img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box-services .content h1{
+    color: #000;
+    font-size: 25px;
+    transition:all 0.5s ease-in-out
+}
+.box-services .content p{
+    margin-bottom: 30px;
+    transition:all 0.5s ease-in-out
+}
+.box-services:hover .content h1{
+    color: #fff;
+}
+.box-services:hover .content p{
+    color:#fff;
+}
+.services{
+    padding-bottom:100px;
+}
+@charset "utf-8";
+/* CSS Document */
+.logoweb img{
+	width:200px;
+}
+.menu ul li a .iconmenu{
+	font-size:35px;
+	color:#fff;
+	display:block;
+	margin-bottom:10px;
+}
+
+.menu ul li a .iconmenu{
+    text-shadow:none;
+}
+.menu ul li a.menu-lef-act .iconmenu,
+.menu ul li a:hover .iconmenu,
+.menu-lef-act:hover .fa{
+    color:#333;
+
+}
+.top-soc{
+	margin-top:10px;
+}
+.contactform .form-horizontal .control-label{
+	text-align:left;
+	font-size:14px;
+	margin-bottom:10px;
+}
+.contactform .form-group{
+	margin-left: 0;
+	margin-right: 0;
+}
+.contactform .form-group textarea{
+	height:auto;
+}
+.top-address{
+	
+font-family: "Oswald",sans-serif;
+	
+color: #fff;
+	
+font-size: 18px;
+	
+text-align: right;
+}
+.top-address i {
+	
+margin-right: 10px;
+	
+color: #ffc107;
+	
+padding-top: 20px;
+}
